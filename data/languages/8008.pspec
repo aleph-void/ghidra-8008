@@ -21,11 +21,6 @@
     <symbol name="RST6" address="mem:0030" entry="false"/>
     <symbol name="RST7" address="mem:0038" entry="false"/>
 
-    <symbol name="RAM" address="mem:0800" entry="false"/>
-
-    <symbol name="ROM_BANK0" address="mem:0000"/>
-    <symbol name="ROM_BANK1" address="mem:0400"/>
-
     <symbol name="IN0" address="io:00" volatile="true" />
     <symbol name="IN1" address="io:01" volatile="true" />
     <symbol name="IN2" address="io:02" volatile="true" />
@@ -64,9 +59,8 @@
   </default_symbols>
 
   <default_memory_blocks>
-    <memory_block name="ram" start_address="mem:0800" length="0x100" initialized="false"/>
     <memory_block name="IN_PORT" start_address="io:0" length="0x8" initialized="false"/>
-    <memory_block name="OUT_PORT" start_address="io:8" length="0x17" initialized="false"/>
+    <memory_block name="OUT_PORT" start_address="io:8" length="0x18" initialized="false"/>
   </default_memory_blocks>
 
 </processor_spec>
