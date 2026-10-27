@@ -1,0 +1,4 @@
+*.sla
+*.lock
+*.lock~
+__pycache__/
